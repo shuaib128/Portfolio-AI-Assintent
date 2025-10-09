@@ -1,0 +1,132 @@
+[
+  {
+    "id": "bio",
+    "q": "Who is Sam?",
+    "a": "Sam, also known as Shuaib Ahamed, is a software engineer and embedded systems enthusiast from Bangladesh, currently based in Washington State, USA."
+  },
+  {
+    "id": "skills",
+    "q": "What are Sam’s main technical skills?",
+    "a": "Sam works with Go (Gin), MongoDB, PostgreSQL, Flutter, React Native, and embedded C. He also builds projects using ESP32, PlatformIO, and Arduino-based hardware."
+  },
+  {
+    "id": "projects",
+    "q": "What kind of projects has Sam worked on?",
+    "a": "Sam has built a QR-based event check-in platform, an ESP32-powered wallet display, AI glasses that suggest chess moves, and an automated chess-playing robot."
+  },
+  {
+    "id": "frontend",
+    "q": "What frontend technologies does Sam use?",
+    "a": "Sam uses Flutter for mobile apps and React Native without Expo for cross-platform development."
+  },
+  {
+    "id": "backend",
+    "q": "What backend stack does Sam use?",
+    "a": "He builds backends in Go using the Gin framework, with REST APIs, JWT authentication, MongoDB/PostgreSQL databases, and Docker deployments to Google Cloud Run."
+  },
+  {
+    "id": "education",
+    "q": "What is Sam studying?",
+    "a": "Sam is currently studying computer science at Edmonds College and is working toward his bachelor's degree."
+  },
+  {
+    "id": "internship",
+    "q": "Where did Sam intern?",
+    "a": "He interned at Autev as a Robotics Software Engineer, working with ROS, Gazebo, and Isaac Sim. He also interned at CoMotion Lab building an AI chatbot for shelters."
+  },
+  {
+    "id": "event-platform",
+    "q": "What is the Magnetic Media Group project Sam worked on?",
+    "a": "Sam built a full-stack event management platform for Magnetic Media Group, including QR-based attendee check-in, Google Sheets integration, and backend logic in Go."
+  },
+  {
+    "id": "embedded",
+    "q": "Is Sam into embedded systems?",
+    "a": "Yes, Sam is deeply into embedded systems and 3D printing. He builds smart devices using ESP32, LED displays, stepper motors, and is learning PCB design."
+  },
+  {
+    "id": "robotics",
+    "q": "Does Sam build robots?",
+    "a": "Yes, he built an autonomous chess robot, and is working on a split-flap display, smart fridge device, and plans to build a robotic arm with 3D printed parts."
+  },
+  {
+    "id": "3d-printing",
+    "q": "Does Sam do 3D printing?",
+    "a": "Yes, he owns a Bambu Lab A1 printer and regularly designs and prints enclosures for his embedded hardware projects."
+  },
+  {
+    "id": "personality",
+    "q": "What is Sam like as a person?",
+    "a": "Sam is passionate about tech, loves building things that are useful or fun, and prefers to explain things simply. He’s a builder, a thinker, and a bit of a dreamer."
+  },
+  {
+    "id": "goals",
+    "q": "What are Sam’s long-term goals?",
+    "a": "Sam wants to become an expert in embedded systems and hardware repair, build and sell his own tech products, and help others learn computer science."
+  },
+  {
+    "id": "languages",
+    "q": "What languages does Sam speak?",
+    "a": "Sam speaks Bengali and English."
+  },
+  {
+    "id": "resume",
+    "q": "Where can I find Sam’s work?",
+    "a": "Sam’s portfolio is at https://www.shuaib.pw, where you can see his projects and contact him."
+  },
+  {
+    "id": "contact",
+    "q": "How can I contact Sam?",
+    "a": "Use the contact form on his website https://www.shuaib.pw or connect with him via LinkedIn."
+  },
+  {
+    "id": "llm",
+    "q": "Is Sam building anything with AI?",
+    "a": "Yes, Sam built a recipe LLM that suggests recipes based on ingredients and expiration dates. He's also experimenting with building his own AI voice generator and chatbot."
+  },
+  {
+    "id": "location",
+    "q": "Where is Sam located?",
+    "a": "Sam is based in Washington State, USA."
+  },
+  {
+    "id": "why-cs",
+    "q": "Why did Sam choose computer science?",
+    "a": "Sam believes computer science lets you build things with meaning. To him, it’s not just a major — it’s a passion."
+  },
+  {
+    "id": "hobbies",
+    "q": "What are Sam’s hobbies?",
+    "a": "Building electronics, 3D printing, working on hardware projects, writing Go code, and making his own smart home devices."
+  },
+  {
+    "id": "education-current",
+    "q": "What program is Sam currently enrolled in?",
+    "a": "Sam is an international student at Edmonds College pursuing an Associate of Arts in Computer Science."
+  },
+  {
+    "id": "education-courses",
+    "q": "What courses has Sam completed?",
+    "a": "Sam has completed CS 141 Intro to Programming in Java, CS 142 Intermediate Java, CS 143 Data Structures in Java, and Anthropology 215 Bioanthropology."
+  },
+  {
+    "id": "education-certifications",
+    "q": "Has Sam earned any certifications?",
+    "a": "Yes, Sam took a certification class in Java at Edmonds College."
+  },
+  {
+    "id": "education-roles",
+    "q": "Has Sam held any academic roles?",
+    "a": "Yes, Sam served as a Peer Mentor in the RiSE Program at Edmonds College during Fall 2024."
+  },
+  {
+    "id": "education-self-teaching",
+    "q": "What topics has Sam been self-teaching?",
+    "a": "Sam has been self-teaching embedded systems with C and ESP32, Go with Gin backend development, Flutter mobile and web apps, ROS and ROS2 using C++ and Python, and Quran reading."
+  },
+  {
+    "id": "education-future",
+    "q": "What are Sam's future education plans?",
+    "a": "Sam plans to transfer to a bachelor's program in computer science after completing his AA at Edmonds College."
+  }
+]
