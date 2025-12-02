@@ -1,0 +1,7 @@
+sudo docker run --rm -it -p 5002:5002 --entrypoint /bin/bash ghcr.io/coqui-ai/tts-cpu
+python3 TTS/server/server.py --model_name tts_models/en/jenny/jenny
+curl -G "http://localhost:5002/api/tts" \
+  --data-urlencode "text=Sam has completed several computer science courses — including Intro to Programming in Java, Intermediate Java, Data Structures in Java, and even a fascinating class on Bioanthropology." \
+  --data-urlencode "length_scale=0.9" \
+  --data-urlencode "temperature=1.0" \
+  --output sam_courses.wav

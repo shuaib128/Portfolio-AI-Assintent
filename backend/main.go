@@ -12,10 +12,11 @@ import (
 )
 
 type KBItem struct {
-	ID  string    `json:"id"`
-	Q   string    `json:"q"`
-	A   string    `json:"a"`
-	Vec []float64 `json:"vec"`
+	ID    string    `json:"id"`
+	Q     string    `json:"q"`
+	A     string    `json:"a"`
+	Vec   []float64 `json:"vec"`
+	Audio string    `json:"audio"`
 }
 
 type AskRequest struct {
@@ -64,6 +65,8 @@ func main() {
 
 	r := gin.Default()
 
+	r.Static("/mp3", "./mp3")
+
 	r.Use(cors.New(cors.Config{
 		AllowOrigins:     []string{"http://localhost:3000"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
@@ -110,6 +113,7 @@ func main() {
 			"matched_question": best.Q,
 			"score":            bestScore,
 			"id":               best.ID,
+			"audio":            "http://localhost:8080/" + best.Audio,
 		})
 	})
 
